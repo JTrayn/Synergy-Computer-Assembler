@@ -1,0 +1,13 @@
+
+body {
+    display: flex;
+    gap: 20px;
+    background: darkgray;
+}
+.assemble-button-container {
+    display: flex;
+    align-items: center;
+}
+textarea {
+    background: lightgray;
+}
