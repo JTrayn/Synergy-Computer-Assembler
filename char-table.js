@@ -1,3 +1,9 @@
+/**
+ *  CHAR TABLE
+ *  Provides CHAR_TABLE object which
+ *  contains all CHAR addresses used for
+ *  display and string manipulation.
+ */
 
 function createChar(opcode, type) {
     return {
@@ -18,11 +24,11 @@ export const CHAR_TABLE = {
     8:      createChar("001000", "NUMERIC"),
     9:      createChar("001001", "NUMERIC"),
     0:      createChar("001010", "NUMERIC"),
-    "$E":   createChar("001111", "CONTROL"),
-    "$N":   createChar("010000", "CONTROL"),
-    "$>":   createChar("010001", "CONTROL"),
-    "$C":   createChar("010010", "CONTROL"),
-    "$F":   createChar("010011", "CONTROL"),
+    "d":   createChar("001111", "CONTROL"),
+    "n":   createChar("010000", "CONTROL"),
+    "e":   createChar("010001", "CONTROL"),
+    "c":   createChar("010010", "CONTROL"),
+    "f":   createChar("010011", "CONTROL"),
     A:      createChar("100000", "CHAR"),
     B:      createChar("100001", "CHAR"),
     C:      createChar("100010", "CHAR"),
@@ -52,7 +58,7 @@ export const CHAR_TABLE = {
     ".":    createChar("111010", "CHAR"),
     ",":    createChar("111011", "CHAR"),
     "'":    createChar("111100", "CHAR"),
-    " ":    createChar("111101", "CHAR"),
+    "_":    createChar("111101", "CHAR"),
     "!":    createChar("111110", "CHAR"),
     "?":    createChar("111111", "CHAR"),
 };

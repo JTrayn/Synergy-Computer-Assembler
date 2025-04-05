@@ -1,3 +1,8 @@
+/**
+ *  INSTRUCTION SET DATA
+ *  Exports INSTRUCTION_SET object which
+ *  contains all 31 defined instructions.
+ */
 
 function createInstruction(opcode, argOneType, argTwoType, argCount, description) {
     return {
