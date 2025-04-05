@@ -14,5 +14,5 @@ Binary > BCD circuitry that implements the Double Dabble algorithm. You can find
 
 ![image](https://github.com/user-attachments/assets/6532f4f7-6c6d-48e9-a43c-a068b3771259)
 
-
+Full README soon
 
